@@ -1,0 +1,17 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.menubutton{
+    font-size: 28px;
+    width: 400px;
+    height: 100px;
+    background-color: #000000;
+    color: white;
+    border-radius: 20px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+}

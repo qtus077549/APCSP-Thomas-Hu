@@ -1,0 +1,43 @@
+.TheSchool{
+    color: #092f6e;
+    font-size: 34px;
+}
+
+.Webb{
+    color: #0066ff;
+    font-size: 34px;
+}
+.line{
+    color: yellow;
+    font-size: 34px;
+    border: 3px solid orange;
+}
+.container{
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 50px;
+    border: solid black 3px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.menubutton{
+    font-size: 28px;
+    width: 400px;
+    height: 100px;
+    background-color: #0066ff;
+    color: white;
+    border-radius: 20px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    margin: auto;
+}
+.coursetable{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
