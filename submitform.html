@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+    <link rel="stylesheet" href="submitformstyle.css">
+    <meta name="viewport" content= "width=device-width, initial-scale= 1.0">
+    <title>submitform</title>
+</head>
+<body>
+    <div>
+        <h1 class="title">To submit the course request, follow the instructions below:</h1>
+        <ul>
+            <li>Select 1 target course for each block</li>
+            <li>Select 1 supplement course for each block, but you do not need a supplement for your language course or your art course</li>
+            <li>Each person is to choose 4 humanities courses (2 for fall semester 2 for spring semester); 1 science course; 1 fine arts course; 1 world languages course; 1 mathematics course</li>
+            <li>If you select the same courses for your target and supplement courses, you will get a random course if your target course is not granted</li>
+            <li>If you select the same courses for two of your humanities course blocks, one of your courses will be randomly assigned</li>
+            <li>You will not be granted a course if you do not meet the prerequisites</li>
+            <li>Wrong names or personal informations would cause all of your courses to be randomly assigned</li>
+        </ul>
+    </div>
+    <div class="section">
+        <input name="first name" type="text" placeholder="First Name" class="optionbox">
+        <input name="last name" type="text" placeholder="Last Name" class="optionbox">
+        <input name="grade" type="radio" value="11th Grade">11th Grade
+        <input name="grade" type="radio" value="12th Grade"> 12th Grade
+    </div>
+    <div class="section">
+        <input name="fall human 1" list="fall humanities" placeholder="Your primary humanities course for the fall semester" class="optionbox">
+        <input name="fall human 2" list="fall humanities" placeholder="Your secondary humanities course for the fall semester" class="optionbox">
+        <input name="fall human sub" list="fall humanities" placeholder="Your supplement humanities course for the fall semester" class="optionbox">
+        <datalist id="fall humanities">
+            <option value="Advst the Cold War Era">
+            <option value="Advst Gothic and Horror Literature">
+            <option value="Advst Modernist Literature">
+            </option>
+        </datalist>
+    </div>
+    <div class="section">
+        <input name="spring human 1" list="spring humanities" placeholder="Your primary humanities course for the spring semester" class="optionbox">
+        <input name="spring human 2" list="spring humanities" placeholder="Your secondary humanities course for the spring semester" class="optionbox">
+        <input name="spring human sub" list="spring humanities" placeholder="Your supplement humanities course for the spring semester" class="optionbox">
+        <datalist id="spring humanities">
+            <option value="Advst Case Studies of South Africa">
+            <option value="Advst Human Thesis Seminar">
+            <option value="Advst Existentialism and the Human Condition">
+            </option>
+        </datalist>
+    </div>
+    <div class="section">
+        <input name="science main" list="science" placeholder="Your primary science course" class="optionbox">
+        <input name="science sub" list="science" placeholder="Your supplement science course" class="optionbox">
+        <datalist id="science">
+            <option value="AP Physics C">
+            <option value="AP Biology">
+            <option value="AP Chemistry">
+            </option>
+        </datalist>
+    </div>
+    <div class="section">
+        <input name="language" list="language" placeholder="Your world languages course" class="optionbox">
+        <datalist id="">
+            <option value="Chinese 3">
+            <option value="French 3">
+            <option value="Spanish 3">
+            </option>
+        </datalist>
+    </div>
+    <div class="section">
+        <input name="maths main" list="maths" placeholder="Your primary mathematics course" class="optionbox">
+        <input name="maths sub" list="maths" placeholder="Your supplement mathematics course" class="optionbox">
+        <datalist id="maths">
+            <option value="AP Statistics">
+            <option value="AP Calculus AB">
+            <option value="AP Calculus BC">
+            <option value="Honors Precalculus">
+            </option>
+        </datalist>
+    </div>
+    <div class="section">
+        <input name="arts main" list="arts" placeholder="Your primary fine arts course" class="optionbox">
+        <datalist id="arts">
+            <option value="Hon Orchestra Winds">
+            <option value="Hon Orchestra Strings">
+            <option value="Hon Chambersingers">
+            </option>
+        </datalist>
+    </div>
+    <a href="index.html">
+        <button class="menubutton">click here to go back to main menu</button>
+    </a>
+</body>
+</html>
